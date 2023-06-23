@@ -1,0 +1,47 @@
+{
+  "entity": "event",
+  "account_id": "acc_DwnvepjyJ1UxDO",
+  "event": "payout.processed",
+  "contains": ["payout"],
+  "payload": {
+    "payout": {
+      "entity": {
+        "id": "pout_LKQRtxNbeaM61U",
+        "entity": "payout",
+        "fund_account_id": "fa_LKQDumkhCcfYyp",
+        "amount": 100,
+        "currency": "INR",
+        "notes": {
+          "userId": "63f7513fd5926713036e604d",
+          "transactionId": "63f9209177b15af237a7516c",
+          "withdrawAmount": 31
+        },
+        "fees": 0,
+        "tax": 0,
+        "status": "processed",
+        "purpose": "payout",
+        "utr": "305682326291",
+        "mode": "UPI",
+        "reference_id": "63f7513fd5926713036e604d",
+        "narration": "payout",
+        "batch_id": null,
+        "failure_reason": null,
+        "created_at": 1677273166,
+        "status_details": {
+          "reason": "payout_processed",
+          "description": "Payout is processed and the money has been credited into the beneficiaries account.",
+          "source": "beneficiary_bank"
+        },
+        "error": {
+          "source": null,
+          "reason": null,
+          "description": null,
+          "code": "NA",
+          "step": "NA",
+          "metadata": {}
+        }
+      }
+    }
+  },
+  "created_at": 1677273171
+}
